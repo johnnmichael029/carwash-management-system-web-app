@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gNhx3Vmu1qw=",
+  "dgSpecHash": "UMeci8IqIu8=",
   "success": true,
-  "projectFilePath": "C:\\Visual Studio Projects\\Carwash-Management-System\\Carwash-Management-System\\Carwash-Management-System.csproj",
+  "projectFilePath": "C:\\Visual Studio Projects\\carwash-management-system-web-app\\Carwash-Management-System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512"
   ],
