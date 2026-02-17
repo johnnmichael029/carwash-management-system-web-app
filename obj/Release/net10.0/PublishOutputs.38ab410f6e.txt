@@ -1,0 +1,7 @@
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\Carwash-Management-System.exe
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\appsettings.json
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\Carwash-Management-System.dll
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\Carwash-Management-System.runtimeconfig.json
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\Carwash-Management-System.pdb
+C:\Visual Studio Projects\Carwash-Management-System\Carwash-Management-System\obj\Release\net10.0\PubTmp\Out\Carwash-Management-System.deps.json

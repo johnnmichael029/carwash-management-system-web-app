@@ -1,0 +1,248 @@
+/* GLOBAL SETTINGS */
+html[b-qdxbj4ug91] {
+    scroll-behavior: smooth;
+}
+
+/* Main */
+/* Define height of each section */
+.home-section[b-qdxbj4ug91],
+.service-section[b-qdxbj4ug91], serice-price-section[b-qdxbj4ug91], about-section[b-qdxbj4ug91], .contact-section[b-qdxbj4ug91] {
+    /* Use min-height instead of height to prevent content cutting on small screens */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.landing-wrapper[b-qdxbj4ug91] {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0a0e14 100%);
+    width: 100%;
+}
+
+.hero-title[b-qdxbj4ug91] {
+    color: #FAFAFA;
+}
+
+.btn-primary[b-qdxbj4ug91] {
+    background-color: #00e8e9 !important;
+    box-shadow: 0 0 15px rgba(0, 232, 233, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+    .btn-primary:hover[b-qdxbj4ug91] {
+        background-color: #FAF9F6 !important;
+        box-shadow: 0 8px 15px #f3f3f3;      
+    }
+
+
+.brand-accent[b-qdxbj4ug91] {
+    color: #00e8e9;
+    text-shadow: 0 0 15px rgba(0, 232, 233, 0.3);
+}
+
+.hero-description[b-qdxbj4ug91] {
+    color: #D1D1D1;
+}
+
+.hero-image-container[b-qdxbj4ug91] {
+    border-radius: 30px;
+    overflow: hidden;        
+}
+
+/* Section Background Color */
+.service-section[b-qdxbj4ug91], .service-price-section[b-qdxbj4ug91], .about-section[b-qdxbj4ug91] {
+    background-color: #FAFAFA;
+}
+ 
+    .service-card:hover[b-qdxbj4ug91] {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+    }
+
+
+
+/* Ensure all images in the service cards have the same height and look sharp */
+.service-img-wrapper[b-qdxbj4ug91] {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+
+}
+
+    .service-img-wrapper img[b-qdxbj4ug91] {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        transition: transform 0.5s ease;
+    }
+
+.img-fluid[b-qdxbj4ug91] {
+    border-radius: 20px;
+}
+
+/* Add a subtle zoom effect when hovering over the card */
+.service-card:hover .service-img-wrapper img[b-qdxbj4ug91] {
+    transform: scale(1.1);
+}
+
+.service-card[b-qdxbj4ug91] {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Rounded corners for the "Premium" look */
+    border-color: #1a1a1a !important; /* Dark border for contrast */
+}
+
+    .service-card:hover[b-qdxbj4ug91] {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0, 232, 233, 0.2) !important;
+    }
+
+
+/* Price List Section */
+.table thead[b-qdxbj4ug91] {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0a0e14 100%);
+}
+
+.table tbody tr:hover[b-qdxbj4ug91] {
+    background-color: rgba(0, 232, 233, 0.05); /* Very light cyan on hover */
+    transition: background-color 0.2s ease;
+}
+
+.table-responsive[b-qdxbj4ug91] {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Table Styles */
+@media (max-width: 768px) {
+    .table-responsive thead[b-qdxbj4ug91] {
+        display: none;
+    }
+    .border-bottom[b-qdxbj4ug91] {
+        border-bottom: none !important;
+    }
+    .table-responsive[b-qdxbj4ug91] {
+        border: none;
+        box-shadow: none !important;
+    }
+    .table-responsive tr[b-qdxbj4ug91] {
+        display: block;
+        margin-bottom: 2rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        border-bottom: 4px solid #1a1a1a !important;
+    }
+
+    /* Target the first <td> (Vehicle Name) and make it a centered header */
+    .table-responsive td:first-child[b-qdxbj4ug91] {
+        display: block;
+        width: 100%;
+        background: #1a1a1a; /* Dark background to match your brand */
+        color: #FAFAFA !important; /* Brand accent color */
+        text-align: center !important;
+        font-size: 1rem;
+        padding: 12px !important;
+        border: none;
+        position: static; /* Removes relative positioning from card-style */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+        /* Remove the "Vehicle" label text if you used the data-label approach */
+        .table-responsive td:first-child[b-qdxbj4ug91]::before {
+            content: none !important;
+        }
+
+
+    /* Standard data rows */
+    .table-responsive td:not(:first-child)[b-qdxbj4ug91] {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: right !important;
+        padding: 12px 20px !important;
+        border-bottom: 1px solid #f0f0f0;
+        position: relative;
+    }
+
+        /* Label positioning for price rows */
+        .table-responsive td:not(:first-child)[b-qdxbj4ug91]::before {
+            content: attr(data-label);
+            font-weight: 500;
+            color: #1a1a1a;
+            text-align: left;
+        }
+}
+
+/* About Section */
+
+/* Testimonials */
+.testimonial-card[b-qdxbj4ug91] {
+    transition: transform 0.3s ease;
+    margin: 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .testimonial-card i[b-qdxbj4ug91] {
+        color: #00e8e9; /* Matches your brand accent */
+    }
+
+/* Make sure buttons are visible on the sides */
+.carousel-control-prev[b-qdxbj4ug91], .carousel-control-next[b-qdxbj4ug91] {
+    width: 5%;
+    opacity: 0.8;
+}
+
+/* Remove the background and adjust icon color */
+.carousel-control-next-icon[b-qdxbj4ug91],
+.carousel-control-prev-icon[b-qdxbj4ug91] {
+    filter: invert(1); /* Flips the color to black */
+    width: 3rem; /* Adjust width here */
+    height: 3rem; /* Adjust height here */
+
+}
+
+.carousel-control-prev[b-qdxbj4ug91],
+.carousel-control-next[b-qdxbj4ug91] {
+    width: 5%; /* Makes the clickable area slimmer */
+}
+
+@media (max-width: 768px) {
+    .testimonial-card[b-qdxbj4ug91] {
+        padding: 30px 20px !important;
+        min-height: auto;
+    }
+}
+
+/* Contact Section */
+h6[b-qdxbj4ug91], h2[b-qdxbj4ug91], label[b-qdxbj4ug91] {
+    color: #D1D1D1;
+}
+
+/* Footer */
+.footer-custom[b-qdxbj4ug91] {
+    border-top: 2px solid #1a1a1a;
+    background: linear-gradient(135deg, #1a1a1a 0%, #0a0e14 100%);
+}
+
+.footer-links a:hover[b-qdxbj4ug91] {
+    color: #00e8e9 !important; /* Cyan hover effect */
+    padding-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.footer-custom .border-primary[b-qdxbj4ug91] {
+    border-color: #00e8e9 !important; /* Cyan bottom border for headers */
+}
+
+.social-links a:hover[b-qdxbj4ug91] {
+    color: #00e8e9 !important;
+    transform: translateY(-3px);
+    display: inline-block;
+}
+
+/* Specific styling for the icons if using Bootstrap Icons */
+.bi-heart-fill[b-qdxbj4ug91] {
+    font-size: 0.8rem;
+}
